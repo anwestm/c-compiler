@@ -1,0 +1,66 @@
+[debug] [zinc] IncrementalCompile -----------
+[debug] IncrementalCompile.incrementalCompile
+[debug] previous = Stamps for: 88 products, 2 sources, 1 libraries
+[debug] current source = Set(${BASE}/src/main/scala/Main.scala, ${BASE}/src/main/scala/Lexer.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/Main.scala), unmodified = ...),Set(${BASE}/target/scala-2.12/classes/Main$.class),Set(),API Changes: Set())
+[debug] 
+[debug] Initial source changes:
+[debug] 	removed: Set()
+[debug] 	added: Set()
+[debug] 	modified: Set(${BASE}/src/main/scala/Main.scala)
+[debug] Invalidated products: Set(${BASE}/target/scala-2.12/classes/Main$.class)
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated classes: Set(EString, EInt, BOPType, EType, SVarAssign, GFuncDef, Main.Printer, SScope, SExpr, BaseType, UOPType, GType, GFuncDecl, SIf, TChar, TInt, GStruct, EArrayAccess, TPoint, EVar, EChar, SVarDef, GVarDecl, SType, TVoid, TIdent, SBreak, Main, GVarDef, ECall, Prog, SReturn, EBinOp, SWhile, TType, SArrayAssign, EUnOp, SDelete, ENew)
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set(${BASE}/src/main/scala/Main.scala)
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] All initially invalidated classes: Set(EString, EInt, BOPType, EType, SVarAssign, GFuncDef, Main.Printer, SScope, SExpr, BaseType, UOPType, GType, GFuncDecl, SIf, TChar, TInt, GStruct, EArrayAccess, TPoint, EVar, EChar, SVarDef, GVarDecl, SType, TVoid, TIdent, SBreak, Main, GVarDef, ECall, Prog, SReturn, EBinOp, SWhile, TType, SArrayAssign, EUnOp, SDelete, ENew)
+[debug] All initially invalidated sources:Set(${BASE}/src/main/scala/Main.scala)
+[debug] Initial set of included nodes: EString, EInt, BOPType, EType, SVarAssign, GFuncDef, Main.Printer, SScope, SExpr, BaseType, UOPType, GType, GFuncDecl, SIf, TChar, TInt, GStruct, EArrayAccess, TPoint, EVar, EChar, SVarDef, GVarDecl, SType, TVoid, TIdent, SBreak, Main, GVarDef, ECall, Prog, SReturn, EBinOp, SWhile, TType, SArrayAssign, EUnOp, SDelete, ENew
+[debug] Including EArrayAccess by EType
+[debug] Including EVar by EType
+[debug] Including EChar by EType
+[debug] Including ECall by EType
+[debug] Including EBinOp by EType
+[debug] Including EUnOp by EType
+[debug] Including ENew by EType
+[debug] Including UOPType by BaseType
+[debug] Including GType by BaseType
+[debug] Including GFuncDecl by GType
+[debug] Including GStruct by GType
+[debug] Including GVarDecl by GType
+[debug] Including GVarDef by GType
+[debug] Including SType by BaseType
+[debug] Including SIf by SType
+[debug] Including SVarDef by SType
+[debug] Including SBreak by SType
+[debug] Including SReturn by SType
+[debug] Including SWhile by SType
+[debug] Including SArrayAssign by SType
+[debug] Including SDelete by SType
+[debug] Including Prog by BaseType
+[debug] Including TType by BaseType
+[debug] Including TChar by TType
+[debug] Including TInt by TType
+[debug] Including TPoint by TType
+[debug] Including TVoid by TType
+[debug] Including TIdent by TType
+[debug] compilation cycle 1
+[info] compiling 1 Scala source to /home/ante358/IdeaProjects/id2202-anwestm/solutions/cigrid/target/scala-2.12/classes ...
+[debug] Getting org.scala-sbt:compiler-bridge_2.12:1.4.0:compile for Scala 2.12.12
+[debug] [zinc] Running cached compiler 576ec1e2 for Scala compiler version 2.12.12
+[debug] [zinc] The Scala compiler is invoked with:
+[debug] 	-bootclasspath
+[debug] 	/home/ante358/.sbt/boot/scala-2.12.12/lib/scala-library.jar
+[debug] 	-classpath
+[debug] 	/home/ante358/IdeaProjects/id2202-anwestm/solutions/cigrid/target/scala-2.12/classes
+[debug] New invalidations:
+[debug] Initial set of included nodes: 
+[debug] Previously invalidated, but (transitively) depend on new invalidations:
+[debug] Final step, transitive dependencies:
+[debug] 	Set()
+[debug] No classes were invalidated.
+[debug] Scala compilation took 6.752587939 s
+[info] done compiling

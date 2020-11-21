@@ -1,0 +1,49 @@
+[debug] Running TaskDef(ParserTest, org.scalatest.tools.Framework$$anon$1@64407581, false, [SuiteSelector])
+[info] ParserTest:
+[info] - Parser.empty
+[info] - Parser.one_param_return
+[info] - Parser.two_params_return
+[info] - Parser.call_no_args_call_statemant
+[info] - Parser.call_one_args
+[info] - Parser.call_two_args_var_expr
+[info] - Parser.print_char_consts
+[info] - Parser.arith_assignments
+[info] - Parser.arith_assignments_ext
+[info] - Parser.logic_operations
+[info] - Parser.logic_operations_ext
+[info] - Parser.if_then_else
+[info] - Parser.if_then_dangeling_else
+[info] - Parser.while_break
+[info] - Parser.pluspluss_minusminus
+[info] - Parser.defining_local_variables
+[info] - Parser.hexadecimal_numbers
+[info] - Parser.global_x
+[info] - Parser.global_y
+[info] - Parser.use_global
+[info] - Parser.use_global_y
+[info] - Parser.for_loop_with_break
+[info] - Parser.Empty struct
+[info] - Parser.Struct With Elements
+[info] - Parser.struct_arrays
+[info] - Parser.int_arrays
+[info] - Parser.string_test
+[info] - Parser.print_int
+[info] - Parser.print_int_ln
+[info] - Parser.print_string
+[info] - Parser.Tree
+[info] - Parser.node
+[info] - Parser.leaf
+[info] - Parser.inorder_traversal
+[info] - Parser.delete_tree
+[info] - Parser.test_recursive_data_structures
+[info] - Parser.delete_tree_rec
+[info] - Parser.text1
+[info] - Parser.print_test_strings
+[info] - Parser.main
+[info] Run completed in 406 milliseconds.
+[info] Total number of tests run: 40
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 40, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[debug] Passed tests:
+[debug] 	ParserTest

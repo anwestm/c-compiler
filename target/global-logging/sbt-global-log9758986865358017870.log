@@ -1,0 +1,99 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.0 (Ubuntu Java 11.0.9)
+[debug] Load.defaultLoad until apply took 682.276025ms
+[debug]           Load.loadUnit: plugins took 185.990822ms
+[debug]           Load.loadUnit: defsScala took 0.322217ms
+[debug] [Loading] Scanning directory /home/ante358/IdeaProjects/id2202-anwestm/solutions/cigrid/project
+[debug]             Load.loadUnit: mkEval took 7.71909ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/ante358/IdeaProjects/id2202-anwestm/solutions/cigrid/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 26.065774 ms
+[info] loading settings for project cigrid-build from plugins.sbt ...
+[debug]               Load.resolveProject(cigrid-build) took 46.349569ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id cigrid-build, base: /home/ante358/IdeaProjects/id2202-anwestm/solutions/cigrid/project, plugins: List(<none>))) took 105.620266ms
+[debug] [Loading] Done in /home/ante358/IdeaProjects/id2202-anwestm/solutions/cigrid/project, returning: (cigrid-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 384.098428ms
+[debug]           Load.loadUnit: cleanEvalClasses took 4.806589ms
+[debug]         Load.loadUnit(file:/home/ante358/IdeaProjects/id2202-anwestm/solutions/cigrid/project/, ...) took 579.994008ms
+[debug]       Load.apply: load took 704.980826ms
+[debug]       Load.apply: resolveProjects took 7.237365ms
+[debug]       Load.apply: finalTransforms took 82.86522ms
+[debug]       Load.apply: config.delegates took 11.094202ms
+[debug]       Load.apply: Def.make(settings)... took 714.53104ms
+[debug]       Load.apply: structureIndex took 192.241707ms
+[debug]       Load.apply: mkStreams took 1.600222ms
+[info] loading project definition from /home/ante358/IdeaProjects/id2202-anwestm/solutions/cigrid/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 3073.29741ms
+[debug]     Load.loadUnit: defsScala took 0.003714ms
+[debug] [Loading] Scanning directory /home/ante358/IdeaProjects/id2202-anwestm/solutions/cigrid
+[debug]       Load.loadUnit: mkEval took 0.366635ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/ante358/IdeaProjects/id2202-anwestm/solutions/cigrid, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbtassembly.AssemblyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbtassembly.AssemblyPlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbtassembly.AssemblyPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 4.237669 ms
+[info] loading settings for project cigrid from build.sbt ...
+[debug]         Load.resolveProject(cigrid) took 39.833004ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id cigrid, base: /home/ante358/IdeaProjects/id2202-anwestm/solutions/cigrid, plugins: List(<none>))) took 44.669149ms
+[debug] [Loading] Done in /home/ante358/IdeaProjects/id2202-anwestm/solutions/cigrid, returning: (cigrid)
+[debug]     Load.loadUnit: loadedProjectsRaw took 89.375672ms
+[debug]     Load.loadUnit: cleanEvalClasses took 1.590652ms
+[debug]   Load.loadUnit(file:/home/ante358/IdeaProjects/id2202-anwestm/solutions/cigrid/, ...) took 3167.431052ms
+[debug] Load.apply: load took 3198.378075ms
+[debug] Load.apply: resolveProjects took 0.1213ms
+[debug] Load.apply: finalTransforms took 12.823255ms
+[debug] Load.apply: config.delegates took 0.408668ms
+[debug] Load.apply: Def.make(settings)... took 146.827877ms
+[debug] Load.apply: structureIndex took 39.47051ms
+[debug] Load.apply: mkStreams took 0.002519ms
+[info] set current project to cigrid (in build file:/home/ante358/IdeaProjects/id2202-anwestm/solutions/cigrid/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(set assemblyJarName := "cigrid.jar", None, None)
+[info] Defining assemblyJarName
+[info] The new value will be used by assembly / assemblyJarName, assemblyPackageDependency / assemblyJarName, assemblyPackageScala / assemblyJarName
+[debug] Defining 
+[debug] 	assemblyJarName
+[debug] 
+[debug] The new value will be used by 
+[debug] 	assembly / assemblyJarName
+[debug] 	assemblyPackageDependency / assemblyJarName
+[debug] 	assemblyPackageScala / assemblyJarName
+[info] Reapplying settings...
+[info] set current project to cigrid (in build file:/home/ante358/IdeaProjects/id2202-anwestm/solutions/cigrid/)
+[debug] > Exec(set assemblyOutputPath in assembly := file("/home/ante358/IdeaProjects/id2202-anwestm/solutions/cigrid/cigrid.jar"), None, None)
+[info] Defining assembly / assemblyOutputPath
+[info] The new value will be used by assembly
+[debug] Defining 
+[debug] 	assembly / assemblyOutputPath
+[debug] 
+[debug] The new value will be used by 
+[debug] 	assembly
+[info] Reapplying settings...
+[info] set current project to cigrid (in build file:/home/ante358/IdeaProjects/id2202-anwestm/solutions/cigrid/)
+[debug] > Exec(assembly, None, None)
+[debug] Evaluating tasks: assembly
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to /home/ante358/IdeaProjects/id2202-anwestm/solutions/cigrid/target/scala-2.12/classes ...
+[warn] /home/ante358/IdeaProjects/id2202-anwestm/solutions/cigrid/src/main/scala/Main.scala:277:5: enclosing method printParseError has result type Unit: return value of type Null(null) discarded
+[warn]     return null
+[warn]     ^
+[warn] /home/ante358/IdeaProjects/id2202-anwestm/solutions/cigrid/src/main/scala/Main.scala:277:12: a pure expression does nothing in statement position
+[warn]     return null
+[warn]            ^
+[warn] two warnings found
+[info] done compiling

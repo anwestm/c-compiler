@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="alux" name="ParserTest" tests="40" errors="0" failures="0" skipped="0" time="0.071" timestamp="2020-11-07T18:10:13">
+                     <properties>
+      <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/><property name="java.specification.version" value="11"/><property name="sun.cpu.isalist" value=""/><property name="sun.jnu.encoding" value="UTF-8"/><property name="sun.arch.data.model" value="64"/><property name="java.vendor.url" value="https://ubuntu.com/"/><property name="jline.terminal" value="none"/><property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/><property name="sun.java.command" value="/usr/share/sbt/bin/sbt-launch.jar set assemblyJarName := &quot;cigrid.jar&quot; set assemblyOutputPath in assembly := file(&quot;/home/ante358/IdeaProjects/id2202-anwestm/solutions/cigrid/cigrid.jar&quot;) assembly"/><property name="jdk.debug" value="release"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="java.version.date" value="2020-10-20"/><property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/><property name="file.separator" value="/"/><property name="java.vm.compressedOopsMode" value="32-bit"/><property name="line.separator" value="
+"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="11.0.9+11-Ubuntu-0ubuntu1.20.04"/><property name="user.name" value="ante358"/><property name="log4j.ignoreTCL" value="true"/><property name="file.encoding" value="UTF-8"/><property name="jnidispatch.path" value="/home/ante358/.cache/JNA/temp/jna7966342416917937695.tmp"/><property name="jna.loaded" value="true"/><property name="java.io.tmpdir" value="/tmp"/><property name="java.version" value="11.0.9"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/><property name="sun.os.patch.level" value="unknown"/><property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/><property name="java.vendor" value="Ubuntu"/><property name="scala.ext.dirs" value="/home/ante358/.sbt/0.13/java9-rt-ext-ubuntu_11_0_9"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.desktop" value="gnome"/><property name="java.class.path" value="/usr/share/sbt/bin/sbt-launch.jar"/><property name="java.vm.vendor" value="Ubuntu"/><property name="jline.shutdownhook" value="false"/><property name="user.timezone" value="Europe/Stockholm"/><property name="os.name" value="Linux"/><property name="java.vm.specification.version" value="11"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="user.country" value="SE"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="/home/ante358"/><property name="user.language" value="sv"/><property name="swoval.tmpdir" value="/home/ante358/.sbt/1.0"/><property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/><property name="jline.esc.timeout" value="0"/><property name="path.separator" value=":"/><property name="os.version" value="5.4.0-52-generic"/><property name="jna.nosys" value="true"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="jna.platform.library.path" value="/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/usr/lib64:/lib64:/usr/lib:/lib:/lib/i386-linux-gnu:/usr/lib/x86_64-linux-gnu/libfakeroot"/><property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/><property name="user.dir" value="/home/ante358/IdeaProjects/id2202-anwestm/solutions/cigrid"/><property name="os.arch" value="amd64"/><property name="java.vm.info" value="mixed mode, sharing"/><property name="java.vm.version" value="11.0.9+11-Ubuntu-0ubuntu1.20.04"/><property name="java.class.version" value="55.0"/>
+    </properties>
+                     <testcase classname="ParserTest" name="Parser.empty" time="0.025">
+                                                 
+                                               </testcase><testcase classname="ParserTest" name="Parser.one_param_return" time="0.001">
+                                                 
+                                               </testcase><testcase classname="ParserTest" name="Parser.two_params_return" time="0.002">
+                                                 
+                                               </testcase><testcase classname="ParserTest" name="Parser.call_no_args_call_statemant" time="0.001">
+                                                 
+                                               </testcase><testcase classname="ParserTest" name="Parser.call_one_args" time="0.001">
+                                                 
+                                               </testcase><testcase classname="ParserTest" name="Parser.call_two_args_var_expr" time="0.001">
+                                                 
+                                               </testcase><testcase classname="ParserTest" name="Parser.print_char_consts" time="0.002">
+                                                 
+                                               </testcase><testcase classname="ParserTest" name="Parser.arith_assignments" time="0.003">
+                                                 
+                                               </testcase><testcase classname="ParserTest" name="Parser.arith_assignments_ext" time="0.002">
+                                                 
+                                               </testcase><testcase classname="ParserTest" name="Parser.logic_operations" time="0.003">
+                                                 
+                                               </testcase><testcase classname="ParserTest" name="Parser.logic_operations_ext" time="0.001">
+                                                 
+                                               </testcase><testcase classname="ParserTest" name="Parser.if_then_else" time="0.002">
+                                                 
+                                               </testcase><testcase classname="ParserTest" name="Parser.if_then_dangeling_else" time="0.001">
+                                                 
+                                               </testcase><testcase classname="ParserTest" name="Parser.while_break" time="0.001">
+                                                 
+                                               </testcase><testcase classname="ParserTest" name="Parser.pluspluss_minusminus" time="0.0">
+                                                 
+                                               </testcase><testcase classname="ParserTest" name="Parser.defining_local_variables" time="0.001">
+                                                 
+                                               </testcase><testcase classname="ParserTest" name="Parser.hexadecimal_numbers" time="0.001">
+                                                 
+                                               </testcase><testcase classname="ParserTest" name="Parser.global_x" time="0.0">
+                                                 
+                                               </testcase><testcase classname="ParserTest" name="Parser.global_y" time="0.0">
+                                                 
+                                               </testcase><testcase classname="ParserTest" name="Parser.use_global" time="0.001">
+                                                 
+                                               </testcase><testcase classname="ParserTest" name="Parser.use_global_y" time="0.0">
+                                                 
+                                               </testcase><testcase classname="ParserTest" name="Parser.for_loop_with_break" time="0.001">
+                                                 
+                                               </testcase><testcase classname="ParserTest" name="Parser.Empty struct" time="0.0">
+                                                 
+                                               </testcase><testcase classname="ParserTest" name="Parser.Struct With Elements" time="0.0">
+                                                 
+                                               </testcase><testcase classname="ParserTest" name="Parser.struct_arrays" time="0.002">
+                                                 
+                                               </testcase><testcase classname="ParserTest" name="Parser.int_arrays" time="0.001">
+                                                 
+                                               </testcase><testcase classname="ParserTest" name="Parser.string_test" time="0.001">
+                                                 
+                                               </testcase><testcase classname="ParserTest" name="Parser.print_int" time="0.002">
+                                                 
+                                               </testcase><testcase classname="ParserTest" name="Parser.print_int_ln" time="0.001">
+                                                 
+                                               </testcase><testcase classname="ParserTest" name="Parser.print_string" time="0.001">
+                                                 
+                                               </testcase><testcase classname="ParserTest" name="Parser.Tree" time="0.0">
+                                                 
+                                               </testcase><testcase classname="ParserTest" name="Parser.node" time="0.002">
+                                                 
+                                               </testcase><testcase classname="ParserTest" name="Parser.leaf" time="0.001">
+                                                 
+                                               </testcase><testcase classname="ParserTest" name="Parser.inorder_traversal" time="0.002">
+                                                 
+                                               </testcase><testcase classname="ParserTest" name="Parser.delete_tree" time="0.001">
+                                                 
+                                               </testcase><testcase classname="ParserTest" name="Parser.test_recursive_data_structures" time="0.002">
+                                                 
+                                               </testcase><testcase classname="ParserTest" name="Parser.delete_tree_rec" time="0.002">
+                                                 
+                                               </testcase><testcase classname="ParserTest" name="Parser.text1" time="0.001">
+                                                 
+                                               </testcase><testcase classname="ParserTest" name="Parser.print_test_strings" time="0.001">
+                                                 
+                                               </testcase><testcase classname="ParserTest" name="Parser.main" time="0.001">
+                                                 
+                                               </testcase>
+                     <system-out><![CDATA[]]></system-out>
+                     <system-err><![CDATA[]]></system-err>
+                   </testsuite>

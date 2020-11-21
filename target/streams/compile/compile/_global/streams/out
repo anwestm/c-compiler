@@ -1,0 +1,7 @@
+[warn] /home/ante358/IdeaProjects/id2202-anwestm/solutions/cigrid/src/main/scala/Main.scala:278:5: enclosing method printParseError has result type Unit: return value of type Null(null) discarded
+[warn]     return null
+[warn]     ^
+[warn] /home/ante358/IdeaProjects/id2202-anwestm/solutions/cigrid/src/main/scala/Main.scala:278:12: a pure expression does nothing in statement position
+[warn]     return null
+[warn]            ^
+[warn] two warnings found
